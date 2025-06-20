@@ -53,6 +53,7 @@ LLMs like **Gemini 1.5 Pro** or **Groq Llama3** are used behind each agent for r
 
 ## 📦 Project Structure
 
+```
 confluent_hackathon/
 ├── agents/
 │ ├── crew_config.py # CrewAI agent definitions and pipeline setup
@@ -67,7 +68,7 @@ confluent_hackathon/
 ├── client.properties # Kafka credentials (from Confluent Cloud)
 ├── pipeline.py # Main pipeline (Kafka → LLM → Kafka)
 └── README.md
-
+```
 
 ---
 
