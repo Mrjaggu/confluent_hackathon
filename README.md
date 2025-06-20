@@ -9,7 +9,7 @@ A real-time GenAI application powered by **Confluent Kafka**, **CrewAI**, and **
 This project combines:
 - 🔌 **Confluent Kafka** for real-time data ingestion and streaming
 - 🧠 **Agentic AI (CrewAI)** for multi-step reasoning using LLMs
-- 🤖 **Gemini/Groq** for ultra-fast inference
+- 🤖 **Gemini/Groq/OpenAI** for ultra-fast inference
 - 📊 **Streamlit** for live, interactive insights
 
 ---
