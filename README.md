@@ -128,54 +128,39 @@ Sent to Kafka topic movie_queries:
 ### Output on dashboard:
 
 1. 🎯 Query from User U1
-
 2. 🔍 Detected Filters: { "genre": "sci-fi", "theme": "thriller" }
-
 3. 🎬 Recommendations: ["Arrival", "Inception", "Blade Runner 2049"]
-
 4. 🧠 Summary: "Based on your interest in Interstellar..."
 
 ### 🏆 Why This is a Great Hackathon Use Case
 ✅ Business Value:
 
-Personalized recommendations
-
-Agentic AI reasoning
-
-Real-time feedback via dashboard
+1. Personalized recommendations
+2. Agentic AI reasoning
+3. Real-time feedback via dashboard
 
 ### ✅ Confluent Leverage:
 
-Kafka for stream ingestion & results
-
-Supports multiple sources (Twitter, support chats, etc.)
-
-Optional Flink SQL integration for analytics
+1. Kafka for stream ingestion & results
+2. Supports multiple sources (Twitter, support chats, etc.)
+3. Optional Flink SQL integration for analytics
 
 ### ✅ LLM Innovation:
 
-Agentic orchestration using CrewAI
-
-Fast inference using Groq or Gemini
+1. Agentic orchestration using CrewAI
+2. Fast inference using Groq or Gemini
 
 ### 📈 Optional Enhancements
-Add Flink SQL to join topic data (e.g., comments + movies)
-
-Store movie_insights in a real-time DB (PostgreSQL or MongoDB)
-
-Add feedback/rating loop
-
-Build a WhatsApp bot using Twilio
+1. Add Flink SQL to join topic data (e.g., comments + movies)
+2. Store movie_insights in a real-time DB (PostgreSQL or MongoDB)
+3. Add feedback/rating loop
+4. Build a WhatsApp bot using Twilio
 
 ### 🙌 Credits
 Built with:
 
-### 🧠 CrewAI
-
-### ⚡ Groq
-
-### 🤖 Gemini Pro
-
-### ☁️ Confluent Cloud
-
-### 📊 Streamlit
+1. 🧠 CrewAI
+2. ⚡ Groq
+3. 🤖 Gemini Pro
+4. ☁️ Confluent Cloud
+5. 📊 Streamlit
