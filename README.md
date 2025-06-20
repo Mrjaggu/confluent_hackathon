@@ -125,15 +125,15 @@ Sent to Kafka topic movie_queries:
 }
 ```
 
-Output on dashboard:
+### Output on dashboard:
 
-🎯 Query from User U1
+1. 🎯 Query from User U1
 
-🔍 Detected Filters: { "genre": "sci-fi", "theme": "thriller" }
+2. 🔍 Detected Filters: { "genre": "sci-fi", "theme": "thriller" }
 
-🎬 Recommendations: ["Arrival", "Inception", "Blade Runner 2049"]
+3. 🎬 Recommendations: ["Arrival", "Inception", "Blade Runner 2049"]
 
-🧠 Summary: "Based on your interest in Interstellar..."
+4. 🧠 Summary: "Based on your interest in Interstellar..."
 
 ### 🏆 Why This is a Great Hackathon Use Case
 ✅ Business Value:
