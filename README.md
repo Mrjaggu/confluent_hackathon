@@ -1,4 +1,4 @@
-# 🎬 Real-Time Movie Intelligence System
+# 🎬 Agentic AI Real-Time Movie Intelligence System
 
 A real-time GenAI application powered by **Confluent Kafka**, **CrewAI**, and **Gemini/Groq**. This system intelligently processes user movie queries, extracts intent, enriches context using user profiles, and generates personalized movie recommendations — all streamed live to a dashboard.
 
