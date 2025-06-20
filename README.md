@@ -86,14 +86,12 @@ confluent_hackathon/
 
 ### 1. Install dependencies
 
-```bash
 
 2. Set up Kafka credentials
 Create a client.properties file with your Confluent Cloud details:
 
 properties
-Copy
-Edit
+```
 bootstrap.servers=...
 security.protocol=SASL_SSL
 sasl.mechanism=PLAIN
