@@ -111,7 +111,7 @@ python kafka_prdoucers/data_ingestion.py
 
 ### 5. Run the dashboard
 ```bash
-streamlit run dashboard.py
+streamlit run dashboard/app.py
 ```
 
 💡 Sample Query
