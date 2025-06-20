@@ -103,7 +103,7 @@ sasl.password=...
 ```bash
 python pipeline.py
 ```
-### 4. Send a sample query
+### 4. Data ingestion to Kafka
 
 ```bash
 python kafka_prdoucers/data_ingestion.py
