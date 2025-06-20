@@ -104,6 +104,7 @@ sasl.password=...
 python pipeline.py
 ```
 ### 4. Send a sample query
+
 ```bash
 python kafka_prdoucers/data_ingestion.py
 ```
@@ -117,12 +118,11 @@ streamlit run dashboard.py
 
 Sent to Kafka topic movie_queries:
 
-``bash
+```bash
 {
   "user_id": "U1",
   "prompt": "Recommend a sci-fi thriller like Interstellar"
 }
-```
 ```
 
 Output on dashboard:
