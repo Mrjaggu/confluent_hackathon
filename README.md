@@ -52,21 +52,21 @@ LLMs like **Gemini 1.5 Pro** or **Groq Llama3** are used behind each agent for r
 ---
 
 ## 📦 Project Structure
+
 confluent_hackathon/
-│
 ├── agents/
 │ ├── crew_config.py # CrewAI agent definitions and pipeline setup
 │ └── tools.py # Custom tools (KafkaDataTool, etc.)
 ├── dashboard/
-│ ├── dashboard.py # Streamlit dashboard (real-time view)
+│ └── dashboard.py # Streamlit dashboard (real-time view)
 ├── kafka_producers/
-│ ├── data_ingestion.py # pushing data to kafka
+│ └── data_ingestion.py # Pushing data to Kafka
 ├── static/
 │ ├── movies.json # Fallback movie data (from MongoDB)
 │ └── users.json # Fallback user profiles
 ├── client.properties # Kafka credentials (from Confluent Cloud)
-└── README.md
 ├── pipeline.py # Main pipeline (Kafka → LLM → Kafka)
+└── README.md
 
 
 ---
