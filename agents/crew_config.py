@@ -2,10 +2,7 @@ from crewai import Agent, Task, Crew, Process
 from agents.tools import KafkaDataTool  # if used
 from crewai import LLM
 import os
-
-
-os.environ["OPENAI_API_KEY"]= "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"
-
+import load_env()
 # Load Gemini via Groq (you can also wrap it with a custom provider)
 llm = LLM(
     model="openai/gpt-4o-mini",
