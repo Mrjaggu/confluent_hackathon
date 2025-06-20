@@ -135,7 +135,7 @@ Output on dashboard:
 
 🧠 Summary: "Based on your interest in Interstellar..."
 
-🏆 Why This is a Great Hackathon Use Case
+###🏆 Why This is a Great Hackathon Use Case
 ✅ Business Value:
 
 Personalized recommendations
@@ -144,7 +144,7 @@ Agentic AI reasoning
 
 Real-time feedback via dashboard
 
-✅ Confluent Leverage:
+###✅ Confluent Leverage:
 
 Kafka for stream ingestion & results
 
@@ -152,13 +152,13 @@ Supports multiple sources (Twitter, support chats, etc.)
 
 Optional Flink SQL integration for analytics
 
-✅ LLM Innovation:
+###✅ LLM Innovation:
 
 Agentic orchestration using CrewAI
 
 Fast inference using Groq or Gemini
 
-📈 Optional Enhancements
+###📈 Optional Enhancements
 Add Flink SQL to join topic data (e.g., comments + movies)
 
 Store movie_insights in a real-time DB (PostgreSQL or MongoDB)
@@ -167,15 +167,15 @@ Add feedback/rating loop
 
 Build a WhatsApp bot using Twilio
 
-🙌 Credits
+###🙌 Credits
 Built with:
 
-🧠 CrewAI
+###🧠 CrewAI
 
-⚡ Groq
+###⚡ Groq
 
-🤖 Gemini Pro
+###🤖 Gemini Pro
 
-☁️ Confluent Cloud
+###☁️ Confluent Cloud
 
-📊 Streamlit
+###📊 Streamlit
