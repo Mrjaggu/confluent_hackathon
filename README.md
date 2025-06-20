@@ -117,7 +117,7 @@ streamlit run dashboard.py
 
 Sent to Kafka topic movie_queries:
 
-``json
+``bash
 {
   "user_id": "U1",
   "prompt": "Recommend a sci-fi thriller like Interstellar"
